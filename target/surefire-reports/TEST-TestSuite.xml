@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="381.378" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\net\eclipse-workspace\ATT14JuneBDDCucumberBasics\target\test-classes;C:\Users\net\eclipse-workspace\ATT14JuneBDDCucumberBasics\target\classes;C:\Users\net\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\net\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\net\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\net\.m2\repository\io\cucumber\query\13.5.0\query-13.5.0.jar;C:\Users\net\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\net\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\net\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\net\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\net\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\net\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\net\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\net\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\net\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-testng\7.23.0\cucumber-testng-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-picocontainer\7.23.0\cucumber-picocontainer-7.23.0.jar;C:\Users\net\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\net\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\net\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\net\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\net\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\net\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\net\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\net\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\net\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\net\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\net\AppData\Local\Temp\surefire11185982816240762734\surefirebooter-20250714150402062_3.jar C:\Users\net\AppData\Local\Temp\surefire11185982816240762734 2025-07-14T15-04-01_184-jvmRun1 surefire-20250714150402062_1tmp surefire_0-20250714150402062_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\net\eclipse-workspace\ATT14JuneBDDCucumberBasics\target\test-classes;C:\Users\net\eclipse-workspace\ATT14JuneBDDCucumberBasics\target\classes;C:\Users\net\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\net\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\net\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\net\.m2\repository\io\cucumber\query\13.5.0\query-13.5.0.jar;C:\Users\net\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\net\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\net\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\net\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\net\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\net\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\net\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\net\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\net\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-testng\7.23.0\cucumber-testng-7.23.0.jar;C:\Users\net\.m2\repository\io\cucumber\cucumber-picocontainer\7.23.0\cucumber-picocontainer-7.23.0.jar;C:\Users\net\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\net\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\net\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\net\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\net\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\net\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\net\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\net\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\net\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\net\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\net\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\net\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\net"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="cliBrowser" value="Firefox"/>
+    <property name="basedir" value="C:\Users\net\eclipse-workspace\ATT14JuneBDDCucumberBasics"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\net\AppData\Local\Temp\surefire11185982816240762734\surefirebooter-20250714150402062_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.27+8-LTS-232"/>
+    <property name="user.name" value="net"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\net\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\net\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.27"/>
+    <property name="user.dir" value="C:\Users\net\eclipse-workspace\ATT14JuneBDDCucumberBasics"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env" value="https://amazon.qa.com"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Maven\apache-maven-3.9.10\bin;C:\Users\net\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.27+8-LTS-232"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;verify title of page&quot;, &quot;Homepage functionality&quot;](1)" classname="uiappfeatures.AmazonTestRunner" time="96.167">
+    <failure message="Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 &#10;Host info: host: &apos;DESKTOP-22BKF8F&apos;, ip: &apos;192.168.1.8&apos;&#10;Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {binary: C:\Users\net\AppData\Local\..., prefs: {remote.active-protocols: 1}}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+Host info: host: 'DESKTOP-22BKF8F', ip: '192.168.1.8'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {binary: C:\Users\net\AppData\Local\..., prefs: {remote.active-protocols: 1}}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:142)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:99)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:89)
+	at drivermanager.DriverFactory.initBrowser(DriverFactory.java:16)
+	at uiappfeatures.ApplicationHooks.launchBrowser(ApplicationHooks.java:35)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: verify title of page               &amp#27;[90m# src/test/resources/uiappfeatures/HomePage.feature:3&amp#27;[0m
+Chrome
+Environment value is : https://amazon.qa.com
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+      Host info: host: 'DESKTOP-22BKF8F', ip: '192.168.1.8'
+      Build info: version: '4.34.0', revision: '707dcb4246*'
+      System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {binary: C:\Users\net\AppData\Local\..., prefs: {remote.active-protocols: 1}}}]}]
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:142)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:119)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:99)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:89)
+      	at drivermanager.DriverFactory.initBrowser(DriverFactory.java:16)
+      	at uiappfeatures.ApplicationHooks.launchBrowser(ApplicationHooks.java:35)&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at the landing page&amp#27;[0m          &amp#27;[90m# uiappfeatures.HomePageSteps.preRequisite()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mpage title should contains &amp#27;[0m&amp#27;[36m&amp#27;[1m"Shopping"&amp#27;[0m &amp#27;[90m# uiappfeatures.HomePageSteps.validateTitle(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at uiappfeatures.ApplicationHooks.tearDown(ApplicationHooks.java:50)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at uiappfeatures.ApplicationHooks.closeBrowser(ApplicationHooks.java:59)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jul 14, 2025 3:05:35 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;verify cart icon is displaying&quot;, &quot;Homepage functionality&quot;](2)" classname="uiappfeatures.AmazonTestRunner" time="99.501">
+    <system-out><![CDATA[
+Scenario: verify cart icon is displaying &amp#27;[90m# src/test/resources/uiappfeatures/HomePage.feature:7&amp#27;[0m
+Chrome
+Environment value is : https://amazon.qa.com
+https://www.amazon.in/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is at the landing page&amp#27;[0m      &amp#27;[90m# uiappfeatures.HomePageSteps.preRequisite()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcart icon should get displayed&amp#27;[0m    &amp#27;[90m# uiappfeatures.HomePageSteps.validateCartElement()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;checkout the deal section&quot;, &quot;Homepage functionality&quot;](3)" classname="uiappfeatures.AmazonTestRunner" time="121.824">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@class=&quot;a-link-normal&quot;]/parent::div[@id=&quot;CardInstanceJaOWJ5IG_eBGr1xeO3riBw&quot;]&apos; (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class="a-link-normal"]/parent::div[@id="CardInstanceJaOWJ5IG_eBGr1xeO3riBw"]' (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.BasePage.waitForVisibilityOfElement(BasePage.java:21)
+	at pages.HomePage.checkoutDealsSection(HomePage.java:43)
+	at uiappfeatures.HomePageSteps.clickingOnDeals(HomePageSteps.java:49)
+	at ✽.user clicks on deals(file:///C:/Users/net/eclipse-workspace/ATT14JuneBDDCucumberBasics/src/test/resources/uiappfeatures/HomePage.feature:13)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@class="a-link-normal"]/parent::div[@id="CardInstanceJaOWJ5IG_eBGr1xeO3riBw"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [86104388-bbdc-45cb-99bd-8b87d51540fb, findElement {using=xpath, value=//*[@class="a-link-normal"]/parent::div[@id="CardInstanceJaOWJ5IG_eBGr1xeO3riBw"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1388, moz:profile: C:\Users\net\AppData\Local\..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86104388-bbdc-45cb-99bd-8b87d51540fb
+	at jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 4 more
+]]></failure>
+    <system-out><![CDATA[
+Scenario: checkout the deal section      &amp#27;[90m# src/test/resources/uiappfeatures/HomePage.feature:11&amp#27;[0m
+Chrome
+Environment value is : https://amazon.qa.com
+https://www.amazon.in/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is at the landing page&amp#27;[0m      &amp#27;[90m# uiappfeatures.HomePageSteps.preRequisite()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31muser clicks on deals&amp#27;[0m              &amp#27;[90m# uiappfeatures.HomePageSteps.clickingOnDeals()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class="a-link-normal"]/parent::div[@id="CardInstanceJaOWJ5IG_eBGr1xeO3riBw"]' (tried for 60 second(s) with 500 milliseconds interval)
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+      	at pages.BasePage.waitForVisibilityOfElement(BasePage.java:21)
+      	at pages.HomePage.checkoutDealsSection(HomePage.java:43)
+      	at uiappfeatures.HomePageSteps.clickingOnDeals(HomePageSteps.java:49)
+      	at âœ½.user clicks on deals(file:///C:/Users/net/eclipse-workspace/ATT14JuneBDDCucumberBasics/src/test/resources/uiappfeatures/HomePage.feature:13)
+      Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@class="a-link-normal"]/parent::div[@id="CardInstanceJaOWJ5IG_eBGr1xeO3riBw"]
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+      Build info: version: '4.34.0', revision: '707dcb4246*'
+      System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Command: [86104388-bbdc-45cb-99bd-8b87d51540fb, findElement {using=xpath, value=//*[@class="a-link-normal"]/parent::div[@id="CardInstanceJaOWJ5IG_eBGr1xeO3riBw"]}]
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1388, moz:profile: C:\Users\net\AppData\Local\..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 86104388-bbdc-45cb-99bd-8b87d51540fb
+      	at jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+      	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+      	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+      	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+      	... 4 more&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should redirect to deal page&amp#27;[0m &amp#27;[90m# uiappfeatures.HomePageSteps.validateDealsPage()&amp#27;[0m
+
+    Embedding checkout the deal section [image/png 844563 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;search on homepage&quot;, &quot;search functionality&quot;](4)" classname="uiappfeatures.AmazonTestRunner" time="53.065">
+    <system-out><![CDATA[
+Scenario: search on homepage                  &amp#27;[90m# src/test/resources/uiappfeatures/SearchPage.feature:2&amp#27;[0m
+Chrome
+Environment value is : https://amazon.qa.com
+https://www.amazon.in/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is at the landing page&amp#27;[0m           &amp#27;[90m# uiappfeatures.HomePageSteps.preRequisite()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser searches the &amp#27;[0m&amp#27;[32m&amp#27;[1m"mobile"&amp#27;[0m&amp#27;[32m in text box&amp#27;[0m &amp#27;[90m# uiappfeatures.SearchSteps.user_searches_the_in_text_box(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmobile search results should display&amp#27;[0m   &amp#27;[90m# uiappfeatures.SearchSteps.mobile_search_results_should_display()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
